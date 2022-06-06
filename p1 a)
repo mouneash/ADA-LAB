@@ -1,0 +1,12 @@
+#include<stdio.h>
+void TOH(int n,char src,char dstn,char a){
+   if(n>0) {
+      TOH(n-1,src,a,dstn);
+      printf("\n%c to %c",src,dstn);
+      TOH(n-1,a,dstn,src);
+   }
+}
+int main(){
+   int n=3;
+   TOH(n,'A','B','C');
+}

@@ -1,0 +1,18 @@
+
+enter the no of nodes:	4
+
+enter the adjacency matrix:
+0 1 1 1 
+0 1 1 0
+1 1 1 0
+0 0 0 0
+
+enter the source node:	1
+
+node 1 is reachable
+
+node 2 is reachable
+
+node 3 is reachable
+
+node 4 is reachable

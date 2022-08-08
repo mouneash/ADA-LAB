@@ -5,7 +5,7 @@ int max(int,int);
 int i,j,n,m,p[10],w[10],v[10][10];
 void main()
 {
- clrscr();
+ 
  printf("\nenter the no. of items:\t");
  scanf("%d",&n);
  printf("\nenter the weight of the each item:\n");
